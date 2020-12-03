@@ -46,7 +46,6 @@ class OwnerMapServiceTest {
         Owner savedOwner = ownerMapService.save(owner2);
 
         assertEquals(id, savedOwner.getId());
-
     }
 
     @Test
@@ -79,7 +78,6 @@ class OwnerMapServiceTest {
         assertNotNull(smith);
 
         assertEquals(ownerId, smith.getId());
-
     }
 
     @Test
